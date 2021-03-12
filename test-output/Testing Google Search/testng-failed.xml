@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Search]" guice-stage="DEVELOPMENT">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="quickstart.tests.DemoTest">
+        <methods>
+          <include name="DestroyDriver"/>
+          <include name="SetupDriver"/>
+          <include name="endTest"/>
+          <include name="Test1"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- quickstart.tests.DemoTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Search] -->

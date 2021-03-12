@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [quickstart.tests.DemoTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="quickstart.tests.DemoTest">
+        <methods>
+          <include name="Test2"/>
+          <include name="DestroyDriver"/>
+          <include name="Test4"/>
+          <include name="Test3"/>
+          <include name="SetupDriver"/>
+          <include name="endTest"/>
+          <include name="Test1"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- quickstart.tests.DemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [quickstart.tests.DemoTest] -->
