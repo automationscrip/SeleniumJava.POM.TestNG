@@ -15,9 +15,9 @@ Please refer to limitations to know more about the area where this framework wil
 
 ## Test Scenario
 For the purpose of understanding the framework, We have taken a very simple test scenario.
-	Search a keyword on google and validate if the keyword appears as the first result on search results page.
+Search a keyword on google and validate if the keyword appears as the first result on search results page.
+### Test Steps:
 	
-	### Test Steps:
 	1. Open google search application: url- www.google.com
 	2. Enter a keyword in the search box
 	3. On the search results page, validate if the keyword appears as the first result.
