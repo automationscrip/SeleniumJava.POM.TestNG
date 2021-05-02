@@ -13,7 +13,13 @@ Contrary to belief of some SDETs,  using **public static WebDriver** is not wron
 
 Please refer to limitations to know more about the area where this framework will be 
 
-
+## Test Scenario
+For the purpose of understanding the framework, We have taken a very simple test scenario.
+> Searcha keyword on google and validate if the keyword appears as the first result on search results page.
+> Test Steps:
+> 	1. Open google search application: url- www.google.com
+> 	2. Enter a keyword in the search box
+> 	3. On the search results page, validate if the keyword appears as the first result.
 ## Plugins
 
  1. **Eclipse Plugin** - If you want to run your tests from Eclipse as *TestNG Suite*, you need to download TestNG in Eclipse through *available software site*-  [TestNG](https://dl.bintray.com/testng-team/testng-eclipse-release/).
